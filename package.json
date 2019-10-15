@@ -1,0 +1,14 @@
+{
+  "name": "anagram-trie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.0",
+    "readline": "^1.3.0",
+    "request": "^2.88.0"
+  }
+}
