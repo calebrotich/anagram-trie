@@ -1,10 +1,14 @@
 {
   "name": "anagram-trie",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Generates anagrams and sub-anagrams using tries. Supports large words.",
+  "main": "run.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebrotich/anagram-trie.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Caleb Rotich",
   "license": "ISC",
   "dependencies": {
     "http": "0.0.0",
