@@ -8,8 +8,7 @@ request.get('https://raw.githubusercontent.com/dwyl/english-words/master/words_a
 
     if (!error && response.statusCode == 200) {
         const data = trie(body.replace( /\r/g, "" ).split("\n"));
-        // data.getAnagrams(['cat', 'dog', 'museam', 'photosyntesis', 'typewriter']);
-        data.getAnagrams(['collins']);
+        data.getAnagrams(['cat', 'dog', 'museam', 'photosyntesis', 'typewriter']);
     } else {
       console.log(error)
     }
