@@ -21,7 +21,7 @@ The output file will look like:
 1. Clone the repository `git clone https://github.com/calebrotich/anagram-trie.git` and cd into the project folder `cd anagram-trie` by default
 2. Ensure that you have `node` installed to be able to use `npm` and to also run the application. Node can be downloaded from `https://nodejs.org/en/download/`
 3. Install dependencies `npm install`
-4. Run `node run` to run the application
+4. Run `node run` to run the application. N/B: First run may be slow depending on internet connection.
 
 `Note: Switch the inputs by modifying the array at run.js file`
 
